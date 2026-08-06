@@ -1,0 +1,155 @@
+2026-08-06 15:47:25,565 - INFO - ETL pipeline started
+2026-08-06 15:47:25,572 - INFO - Data extraction completed
+2026-08-06 15:47:25,577 - INFO - Data transformation completed
+2026-08-06 15:47:25,580 - INFO - Data saved to CSV successfully
+2026-08-06 15:47:26,875 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 15:47:26,875 - INFO - ETL pipeline completed successfully
+2026-08-06 16:16:49,419 - INFO - ETL pipeline started
+2026-08-06 16:16:49,425 - INFO - Data extraction completed
+2026-08-06 16:16:49,430 - INFO - Data transformation completed
+2026-08-06 16:16:49,432 - INFO - Data saved to CSV successfully
+2026-08-06 16:17:04,896 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 16:17:04,896 - ERROR - ETL pipeline failed
+Traceback (most recent call last):
+  File "C:\Projects\ETL_Project\run_etl.py", line 24, in run_pipeline
+    send_email()
+    ~~~~~~~~~~^^
+  File "C:\Projects\ETL_Project\etl\emailer.py", line 13, in send_email
+    raise ValueError("EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file")
+ValueError: EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file
+2026-08-06 16:24:36,904 - INFO - ETL pipeline started
+2026-08-06 16:24:36,910 - INFO - Data extraction completed
+2026-08-06 16:24:36,913 - INFO - Data transformation completed
+2026-08-06 16:24:36,915 - INFO - Data saved to CSV successfully
+2026-08-06 16:24:38,193 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 16:24:38,193 - ERROR - ETL pipeline failed
+Traceback (most recent call last):
+  File "C:\Projects\ETL_Project\run_etl.py", line 24, in run_pipeline
+    send_email()
+    ~~~~~~~~~~^^
+  File "C:\Projects\ETL_Project\etl\emailer.py", line 13, in send_email
+    raise ValueError("EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file")
+ValueError: EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file
+2026-08-06 16:31:05,837 - INFO - ETL pipeline started
+2026-08-06 16:31:05,844 - INFO - Data extraction completed
+2026-08-06 16:31:05,848 - INFO - Data transformation completed
+2026-08-06 16:31:05,851 - INFO - Data saved to CSV successfully
+2026-08-06 16:31:07,101 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 16:31:07,101 - ERROR - ETL pipeline failed
+Traceback (most recent call last):
+  File "C:\Projects\ETL_Project\run_etl.py", line 24, in run_pipeline
+    send_email()
+    ~~~~~~~~~~^^
+  File "C:\Projects\ETL_Project\etl\emailer.py", line 13, in send_email
+    raise ValueError("EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file")
+ValueError: EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file
+2026-08-06 16:33:45,095 - INFO - ETL pipeline started
+2026-08-06 16:33:45,101 - INFO - Data extraction completed
+2026-08-06 16:33:45,106 - INFO - Data transformation completed
+2026-08-06 16:33:45,109 - INFO - Data saved to CSV successfully
+2026-08-06 16:33:46,296 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 16:33:46,296 - ERROR - ETL pipeline failed
+Traceback (most recent call last):
+  File "C:\Projects\ETL_Project\run_etl.py", line 24, in run_pipeline
+    send_email()
+    ~~~~~~~~~~^^
+  File "C:\Projects\ETL_Project\etl\emailer.py", line 13, in send_email
+    raise ValueError("EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file")
+ValueError: EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file
+2026-08-06 16:34:29,223 - INFO - ETL pipeline started
+2026-08-06 16:34:29,230 - INFO - Data extraction completed
+2026-08-06 16:34:29,236 - INFO - Data transformation completed
+2026-08-06 16:34:29,239 - INFO - Data saved to CSV successfully
+2026-08-06 16:34:30,625 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 16:34:30,626 - ERROR - ETL pipeline failed
+Traceback (most recent call last):
+  File "C:\Projects\ETL_Project\run_etl.py", line 24, in run_pipeline
+    send_email()
+    ~~~~~~~~~~^^
+  File "C:\Projects\ETL_Project\etl\emailer.py", line 13, in send_email
+    raise ValueError("EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file")
+ValueError: EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file
+2026-08-06 16:36:08,048 - INFO - ETL pipeline started
+2026-08-06 16:36:08,054 - INFO - Data extraction completed
+2026-08-06 16:36:08,058 - INFO - Data transformation completed
+2026-08-06 16:36:08,061 - INFO - Data saved to CSV successfully
+2026-08-06 16:36:09,291 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 16:36:09,291 - ERROR - ETL pipeline failed
+Traceback (most recent call last):
+  File "C:\Projects\ETL_Project\run_etl.py", line 24, in run_pipeline
+    send_email()
+    ~~~~~~~~~~^^
+  File "C:\Projects\ETL_Project\etl\emailer.py", line 13, in send_email
+    raise ValueError("EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file")
+ValueError: EMAIL_ADDRESS or EMAIL_PASSWORD is missing from the .env file
+2026-08-06 16:38:43,326 - INFO - ETL pipeline started
+2026-08-06 16:38:43,332 - INFO - Data extraction completed
+2026-08-06 16:38:43,336 - INFO - Data transformation completed
+2026-08-06 16:38:43,338 - INFO - Data saved to CSV successfully
+2026-08-06 16:38:44,531 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 16:38:46,852 - ERROR - ETL pipeline failed
+Traceback (most recent call last):
+  File "C:\Projects\ETL_Project\run_etl.py", line 24, in run_pipeline
+    send_email()
+    ~~~~~~~~~~^^
+  File "C:\Projects\ETL_Project\etl\emailer.py", line 31, in send_email
+    smtp.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\SAI PRABHAV\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\SAI PRABHAV\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SAI PRABHAV\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-84f459ba322sm1191328b3a.50 - gsmtp')
+2026-08-06 16:39:55,165 - INFO - ETL pipeline started
+2026-08-06 16:39:55,172 - INFO - Data extraction completed
+2026-08-06 16:39:55,176 - INFO - Data transformation completed
+2026-08-06 16:39:55,178 - INFO - Data saved to CSV successfully
+2026-08-06 16:39:56,774 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 16:39:58,974 - ERROR - ETL pipeline failed
+Traceback (most recent call last):
+  File "C:\Projects\ETL_Project\run_etl.py", line 24, in run_pipeline
+    send_email()
+    ~~~~~~~~~~^^
+  File "C:\Projects\ETL_Project\etl\emailer.py", line 31, in send_email
+    smtp.login(EMAIL, PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\SAI PRABHAV\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\SAI PRABHAV\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SAI PRABHAV\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-84f45389f0dsm1203033b3a.6 - gsmtp')
+2026-08-06 16:45:11,641 - INFO - ETL pipeline started
+2026-08-06 16:45:11,647 - INFO - Data extraction completed
+2026-08-06 16:45:11,651 - INFO - Data transformation completed
+2026-08-06 16:45:11,653 - INFO - Data saved to CSV successfully
+2026-08-06 16:45:12,853 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 16:45:17,545 - INFO - Success email send
+2026-08-06 16:45:17,545 - INFO - ETL pipeline completed successfully
+2026-08-06 18:48:08,661 - INFO - ETL pipeline started
+2026-08-06 18:48:08,686 - INFO - Data extraction completed
+2026-08-06 18:48:08,698 - INFO - Data transformation completed
+2026-08-06 18:48:08,713 - INFO - Data saved to CSV successfully
+2026-08-06 18:48:25,442 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 18:48:31,383 - INFO - Success email send
+2026-08-06 18:48:31,383 - INFO - ETL pipeline completed successfully
+2026-08-06 18:55:42,863 - INFO - ETL pipeline started
+2026-08-06 18:55:42,876 - INFO - Data extraction completed
+2026-08-06 18:55:42,886 - INFO - Data transformation completed
+2026-08-06 18:55:42,891 - INFO - Data saved to CSV successfully
+2026-08-06 18:55:44,277 - INFO - Data loaded into Azure SQL successfully
+2026-08-06 18:55:49,453 - INFO - Success email send
+2026-08-06 18:55:49,453 - INFO - ETL pipeline completed successfully
